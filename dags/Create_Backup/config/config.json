@@ -1,0 +1,33 @@
+{
+    "CLIENT":"55 Server",
+    "BACKUP_SCRIPT_LOCATION":"/data/create_db_backup",
+    "MYCNF_LOCATION":"/etc",    
+    "EMAIL_LIST":[
+        "sony.shrestha@extensodata.com"
+    ],
+
+    "CRON_EXPRESSION_CREATE_BACKUP":"0 9 * * *",
+    "START_DATE":{
+        "year":2020,
+        "month":10,
+        "day":10,
+        "hour":0,
+        "minute":0,
+        "second":0
+
+    },
+    
+    "connection":{
+        "mysql": {
+            "drivername":"mysql",
+            "host":"10.13.189.55",
+            "username":"sony",
+            "password":"Extenso@123"
+        }
+    },
+    
+       "backup_db_name":"xcs_master,switch_master"
+}
+    
+    
+    
